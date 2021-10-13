@@ -1,0 +1,1 @@
+echo 'SOY EL ARCHIVO CONFIG.PHP';

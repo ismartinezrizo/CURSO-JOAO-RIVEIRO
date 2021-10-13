@@ -1,0 +1,22 @@
+<?php
+//^ PRIVATE
+
+//& SOLO PUEDE SER VISIBLE DENTRO DE LA PROPIA CLASE
+//& NO ES VISIBLE EN LOS OBJETOS INSTANCIADOS NI EN OTRAS CLASES HEREDADAS.
+
+//& A LO CONTRARIO DE LAS PROPIEDADES, LOS METODOS NO NECESITAN TENER UN NIVEL DE ACCESO ESPECIFICADO CLARAMENTE. SI NO FUERAN IDENTIFICADOS, POR DEFECTO EL METODO ES PUBLICO.
+
+class Test
+{
+  private $valor = 'a';
+
+  function mover()
+  {
+    echo "Metodo mover \n";
+    echo "EL VALOR ES " . $this->valor;
+  }
+}
+
+$obj = new Test();
+$obj->mover(); //^ ES POSIBLE
+// $obj->valor = 'B'; //! NO ES POSIBLE

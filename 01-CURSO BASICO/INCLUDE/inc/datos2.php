@@ -1,0 +1,2 @@
+<?php
+$fecha = new DateTime();
