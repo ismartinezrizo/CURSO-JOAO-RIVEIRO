@@ -1,0 +1,2 @@
+<?php
+echo "Este mensaje existe dentro del 01-script_sin_extension";
