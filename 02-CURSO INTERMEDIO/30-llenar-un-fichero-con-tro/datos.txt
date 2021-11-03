@@ -1,0 +1,10 @@
+Esta linea contiene el valor 12
+Esta linea contiene el valor 89
+Esta linea contiene el valor 74
+Esta linea contiene el valor 17
+Esta linea contiene el valor 5
+Esta linea contiene el valor 6
+Esta linea contiene el valor 22
+Esta linea contiene el valor 35
+Esta linea contiene el valor 68
+Esta linea contiene el valor 68
